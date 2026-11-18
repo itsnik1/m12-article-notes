@@ -46,13 +46,13 @@ editor: visual
 - **Common Method Variance (CMV)** - Variance attributable to the measurement method rather than the actual construct
 - **Method Bias** - Distortion in measures or relationships caused by method factors
 - Two major problems
-  1. **Reliability and Validity**
-     - Method variance can be mistaken for actual construct variance
-     - May inflate reliability estimates or distort convergent/discriminant validity
-  2. **Relationships Between Constructs**
-     - Can inflate, deflate, or have no effect on correlations
-     - May cause Type I or Type II errors during hypothesis testing
-     - Can distort regression estimates and explained variance
+  1.  **Reliability and Validity**
+      - Method variance can be mistaken for actual construct variance
+      - May inflate reliability estimates or distort convergent/discriminant validity
+  2.  **Relationships Between Constructs**
+      - Can inflate, deflate, or have no effect on correlations
+      - May cause Type I or Type II errors during hypothesis testing
+      - Can distort regression estimates and explained variance
 - Method bias does not automatically increase correlations
 - Interaction and quadratic effects can be weakened by method bias, but cannot be created solely by it under the conditions examined
 
@@ -241,9 +241,9 @@ editor: visual
 
 - Uses marker variables sharing measurement characteristics with substantive variables
 - Three phases
-  1. Test for method effects and whether they differ across indicators
-  2. Estimate effects on construct reliability
-  3. Conduct sensitivity analysis
+  1.  Test for method effects and whether they differ across indicators
+  2.  Estimate effects on construct reliability
+  3.  Conduct sensitivity analysis
 - Accounts for measurement error and unequal method effects
 - Depends on selecting appropriate markers
 
@@ -329,3 +329,9 @@ editor: visual
 - Effects vary across constructs, methods, and research settings
 - **Best Approach** - Prevent bias through research design and apply appropriate statistical controls when necessary
 - Consider method bias as an alternative explanation before interpreting observed relationships
+
+# Appendix
+
+- [GH Repo](https://github.com/itsnik1/m12-article-notes)
+
+- [Published Page](https://itsnik1.github.io/m12-article-notes/)
