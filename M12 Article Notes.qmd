@@ -1,0 +1,331 @@
+---
+title: "M12 Article Notes"
+author: "Nik Sahami"
+date: today
+format: 
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+    toc-expand: 1
+editor: visual
+---
+
+# Sources of Method Bias in Social Science Research
+
+- **Podsakoff, MacKenzie, & Podsakoff (2012)**
+- *Annual Review of Psychology*, 63, 539–569
+- DOI: https://doi.org/10.1146/annurev-psych-120710-100452
+
+## Introduction
+
+- **Method Bias** - Systematic error caused by the way constructs are measured rather than the constructs themselves
+- Major concern in behavioral and social science research, especially self-report surveys
+- Measuring different constructs using the same method can create artificial relationships
+- Researchers disagree on how serious the problem is
+- **Purpose of the article**
+  - Define method bias and examine its effects
+  - Review empirical evidence
+  - Evaluate procedural and statistical remedies
+  - Recommend ways to minimize bias
+
+## What Is Method Bias and Why Is It a Problem?
+
+### What Is a Method?
+
+- **Method** - The process and conditions used to measure a construct
+- Includes
+  - Question wording, content, and response formats
+  - Item order and proximity
+  - Respondent and researcher characteristics
+  - Timing, location, and conditions of data collection
+- Authors support a broad definition that includes any measurement characteristics producing systematic error
+
+### What Is Method Bias?
+
+- **Common Method Variance (CMV)** - Variance attributable to the measurement method rather than the actual construct
+- **Method Bias** - Distortion in measures or relationships caused by method factors
+- Two major problems
+  1. **Reliability and Validity**
+     - Method variance can be mistaken for actual construct variance
+     - May inflate reliability estimates or distort convergent/discriminant validity
+  2. **Relationships Between Constructs**
+     - Can inflate, deflate, or have no effect on correlations
+     - May cause Type I or Type II errors during hypothesis testing
+     - Can distort regression estimates and explained variance
+- Method bias does not automatically increase correlations
+- Interaction and quadratic effects can be weakened by method bias, but cannot be created solely by it under the conditions examined
+
+### Does Method Bias Affect All Measures Equally?
+
+- Some statistical techniques assume method bias affects all variables equally
+- Evidence generally supports unequal effects across constructs
+  - Response-style variance ranged from 0% to 29% in one study
+  - Other estimates ranged from 22% to 41% across construct types
+- Assuming equal effects may overestimate bias in some variables and underestimate it in others
+
+## Empirical Evidence of the Effects of Method Biases
+
+### Effects of General Method Bias on Item Reliability or Validity
+
+- **Multitrait-Multimethod (MTMM)** analysis separates observed variance into
+  - Trait variance - Actual construct
+  - Method variance - Measurement effects
+  - Error variance - Remaining measurement error
+- Meta-analyses attributed approximately **18%–32% of item variance** to method factors
+- Important influences
+  - Construct type and response scale
+  - Social desirability
+  - Data collection method
+  - Question wording and position
+- Limitations of MTMM
+  - Overlapping datasets
+  - Difficulty separating trait and method variance
+  - Possible CFA estimation problems
+
+### Effects of General Method Bias on the Covariation Between Constructs
+
+- **Covariation** - Extent to which two variables change together
+- Shared measurement methods can create artificial covariation
+
+**Estimates Based on MTMM Meta-Analytic Studies**
+
+- Estimated correlation inflation ranged from 38% to 92%
+  - Cote & Buckley (1987) estimated 45%
+- Estimates vary depending on methods and assumptions used
+
+**Estimates Based on Method-Method Pair Meta-Analytic Technique**
+
+- Compares relationships based on susceptibility of measurement-method pairs to bias
+- Sharma et al. (2009) found
+  - Low susceptibility: Average correlation of 0.16
+  - High susceptibility: Average correlation of 0.59
+  - 56% of between-study variance attributed to method biases
+
+### Estimates of Specific Types of Method Bias on the Covariation Between Constructs
+
+**The Effects of Same Versus Different Sources**
+
+- Same-source measurements generally produce stronger correlations
+  - Leader behaviors and outcomes
+    - Same-source: 0.456
+    - Different-source: 0.191
+  - Personality and job performance
+    - Same-source: 0.312
+    - Different-source: 0.147
+- Some differences may reflect different respondent perspectives rather than bias alone
+
+**The Effects of Response Styles**
+
+- Acquiescence - Tendency to agree
+- Disacquiescence - Tendency to disagree
+- Extreme responding - Selecting highest/lowest options
+- Midpoint responding - Selecting middle options
+- Noncontingent responding - Answering independently of item content
+- One study attributed 27% of variation in correlations to response styles
+- Can inflate, deflate, or even reverse observed relationships
+
+**The Effects of Proximity and Reversed Items**
+
+- Nearby questions can influence each other
+- Unrelated item correlations increased from 0.04 to 0.09 when positioned together
+- Proximity may inflate correlations for nonreversed items and weaken negative correlations for reversed items
+
+**The Effects of Item Wording**
+
+- Positive/negative framing can distort relationships
+- One study found average correlations increased from 0.21 to 0.50 when wording bias was not controlled
+
+**The Effects of Item Context**
+
+- Earlier questions can influence later responses
+- One study found correlations changed from 0.10 to 0.50 depending on measurement context
+
+## Ways to Control for Different Sources of Method Bias
+
+### Procedural Remedies
+
+- Implemented during research design and data collection
+- Aim to prevent bias rather than correct it afterward
+
+**Obtain Measures of Predictor and Criterion Variables From Different Sources**
+
+- Collect predictors and outcomes from different respondents or sources
+  - Employee surveys, supervisor ratings, company records
+- Reduces shared response tendencies and consistency effects
+- Average corrected correlations decreased from 0.359 to 0.184 when using different sources
+- Limitations: May be inappropriate for personal perceptions, costly, or difficult to implement
+
+**Temporal, Proximal, or Psychological Separation Between Predictor and Criterion**
+
+- **Temporal Separation** - Measure variables at different times
+  - One study found correlations 32% lower after a one-month delay
+  - Limitations: Attrition, costs, and changes in constructs over time
+- **Proximal Separation** - Physically separate related questions
+  - Research suggests at least six items of separation when appropriate
+  - Reduces proximity and context effects
+- **Psychological Separation** - Make relationships between measures less obvious
+  - Can present them as separate studies
+  - Reduces motivation to provide consistent responses
+
+**Eliminate Common Scale Properties**
+
+- Use different response formats when appropriate
+  - Scale types, anchors, and labels
+- One study found correlations decreased from 0.45 to 0.18 when different scale formats were used
+- Must preserve construct validity
+
+**Improving Scale Items to Eliminate Ambiguity**
+
+- Use simple, specific, and concise questions
+- Define unfamiliar terms and avoid vague concepts
+- Avoid double-barreled questions and double negatives
+- Clearly label response options
+
+**Reducing Social Desirability Bias in Item Wording**
+
+- Respondents may answer in socially acceptable ways
+- Evaluate and revise items encouraging socially desirable responses
+- Preserve intended construct meaning
+
+**Balancing Positive and Negative Items**
+
+- Include both positively and negatively worded statements
+- Helps control acquiescence/disacquiescence
+- Reverse-worded items may confuse respondents or change item meaning
+
+### Statistical Remedies
+
+- Used when procedural controls are insufficient or unavailable
+- No single technique controls every source of bias
+
+**Unmeasured Latent Method Factor Technique**
+
+- Add a latent method factor to a CFA model
+- Indicators load onto their constructs and a common method factor
+- Advantages
+  - Does not require directly measuring bias
+  - Allows unequal method effects
+- Limitations
+  - May capture actual construct variance
+  - Possible identification problems
+
+**Correlation-Based Marker Variable Technique**
+
+- Use a theoretically unrelated marker variable to estimate method variance
+- Adjust correlations using the marker
+- Easy to implement, but assumes
+  - Equal method effects across variables
+  - Bias only inflates correlations
+- Does not adequately account for measurement error
+
+**Regression-Based Marker Variable Technique**
+
+- Include theoretically unrelated markers in regression models
+- Controls shared method effects represented by the markers
+- Limitations
+  - Only controls bias shared with markers
+  - Limited to single-equation models
+  - Does not account for measurement error
+
+**Instrumental Variable Technique**
+
+- Uses instrumental variables and two-stage least squares (2SLS)
+- Valid instruments must be
+  - Strongly correlated with the endogenous predictor
+  - Uncorrelated with the structural error
+- Can reduce biased estimates without directly measuring the source
+- Major limitation: Finding valid instruments is difficult
+
+**CFA Marker Technique**
+
+- Uses marker variables sharing measurement characteristics with substantive variables
+- Three phases
+  1. Test for method effects and whether they differ across indicators
+  2. Estimate effects on construct reliability
+  3. Conduct sensitivity analysis
+- Accounts for measurement error and unequal method effects
+- Depends on selecting appropriate markers
+
+**Directly Measured Latent Method Factor Technique**
+
+- Directly measure identified sources of bias
+  - Social desirability
+  - Positive/negative affectivity
+- Include these factors in a latent variable model
+- Identifies the source and accounts for measurement error
+- Requires identifying bias sources and obtaining valid measures
+
+**Measured Response Style Technique**
+
+- Directly measure response-style tendencies using unrelated items
+- Recommended: At least three sets of five items
+- Estimate acquiescence, disacquiescence, extreme, and midpoint responding
+- Model these tendencies as latent method factors
+- Only controls the response styles being measured
+
+## Recommendations
+
+### When Is Method Bias Likely to Be a Problem?
+
+- More likely when respondents cannot or do not want to provide accurate answers
+- **Satisficing** - Providing an answer requiring less effort rather than determining the most accurate response
+
+**Ability Factors That May Cause Biased Responding**
+
+- Low topic familiarity or difficulty understanding questions
+- Cognitive limitations or fatigue
+- Greater reliance on response habits
+
+**Motivational Factors That May Cause Biased Responding**
+
+- Low interest in the study
+- Belief that responses have little importance
+- Long or repetitive questionnaires
+- Social pressure to respond in certain ways
+
+**Task Factors That May Cause or Facilitate Biased Responding**
+
+- Abstract, complicated, or ambiguous questions
+- Similar response scales and closely positioned items
+- Conditions encouraging consistency or stylistic responding
+
+### What Can Be Done to Mitigate the Problem?
+
+**Procedural Remedies**
+
+- Match question difficulty to respondent ability
+- Use clear language and appropriate response scales
+- Explain the purpose and value of the study
+- Keep questionnaires reasonably short
+- Reduce ambiguity and unnecessary repetition
+- Separate predictor and criterion measures when appropriate
+- Use different sources or methods when possible
+
+**Statistical Remedies**
+
+- Prefer techniques that account for measurement error and identify specific biases
+  - Directly measured latent method factors
+  - Measured response style technique
+- When specific sources cannot be identified
+  - CFA marker technique
+  - Unmeasured latent method factor technique
+- IV techniques may be useful when valid instruments exist
+- Interpret results cautiously when bias remains possible
+
+**Additional Approaches**
+
+- Examine interaction or quadratic effects when theoretically appropriate
+- Experimentally manipulate potential method factors
+  - Test whether relationships remain consistent across measurement conditions
+
+## Conclusion
+
+- Method bias is a legitimate concern in social science research
+- Can significantly affect
+  - Reliability and validity
+  - Correlations between constructs
+  - Regression estimates and hypothesis testing
+- Effects vary across constructs, methods, and research settings
+- **Best Approach** - Prevent bias through research design and apply appropriate statistical controls when necessary
+- Consider method bias as an alternative explanation before interpreting observed relationships
